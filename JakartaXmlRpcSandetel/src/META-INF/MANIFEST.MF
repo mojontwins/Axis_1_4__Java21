@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bundle-Description: JavaTM APIs for XML based RPC 1.1 Design Specifica
+ tion
+Bundle-License: http://www.eclipse.org/legal/epl-2.0, https://www.gnu.
+ org/software/classpath/license.html
+Bundle-SymbolicName: javax.xml.rpc-api
+Implementation-Version: 1.1.4
+Archiver-Version: Plexus Archiver
+Built-By: default
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1564767266352
+Specification-Vendor: Eclipse Project for Stable EE4J APIs
+Implementation-Vendor-Id: org.glassfish
+Bundle-DocURL: https://www.eclipse.org
+Bundle-Vendor: Eclipse Foundation
+Import-Package: javax.servlet;version="4.0",javax.servlet.http;version
+ ="4.0",javax.xml.namespace,javax.xml.rpc;version="1.1",javax.xml.rpc.
+ encoding;version="1.1",javax.xml.rpc.handler;version="1.1",javax.xml.
+ rpc.handler.soap;version="1.1",javax.xml.rpc.holders;version="1.1",ja
+ vax.xml.rpc.server;version="1.1",javax.xml.rpc.soap;version="1.1",jav
+ ax.xml.soap
+Tool: Bnd-0.0.255
+Implementation-Vendor: Eclipse Foundation
+Export-Package: javax.xml.rpc.soap;uses:="javax.xml.soap,javax.xml.nam
+ espace";version="1.1",javax.xml.rpc.encoding;uses:="javax.xml.namespa
+ ce,javax.xml.rpc";version="1.1",javax.xml.rpc.server;uses:="javax.ser
+ vlet,javax.servlet.http,javax.xml.rpc.handler,javax.xml.rpc";version=
+ "1.1",javax.xml.rpc.handler;uses:="javax.xml.namespace";version="1.1"
+ ,javax.xml.rpc;uses:="javax.xml.rpc.encoding,javax.xml.namespace,java
+ x.xml.rpc.handler";version="1.1",javax.xml.rpc.handler.soap;uses:="ja
+ vax.xml.soap,javax.xml.rpc.handler";version="1.1",javax.xml.rpc.holde
+ rs;uses:="javax.xml.namespace";version="1.1"
+Bundle-Version: 1.1.4
+Bundle-Name: Jakarta XML RPC API
+Extension-Name: javax.xml.rpc
+Created-By: 1.8.0_202 (Oracle Corporation)
+Build-Jdk: 1.8.0_202
+Specification-Version: 1.1
+
